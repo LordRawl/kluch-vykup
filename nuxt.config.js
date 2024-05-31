@@ -1,6 +1,11 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineNuxtConfig({
+  target: 'static',
+  router: {
+    base: '/kluch-vykup/'
+  },
+
   runtimeConfig: {
     apiSecret: '123',
     public: {
