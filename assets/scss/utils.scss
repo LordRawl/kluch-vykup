@@ -1,0 +1,107 @@
+button:focus {
+  outline: none;
+}
+
+html,
+body {
+  font-family: 'Inter Tight', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  @media only screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media only screen and (min-width: 640px) {
+    max-width: 640px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    max-width: 960px;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}
+
+.k-title {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
+}
+
+.k-subtitle {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 1.125rem;
+  }
+}
+
+.visually-hidden {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: var(--transition-opacity);
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

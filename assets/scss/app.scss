@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap&subset=cyrillic');
+
+@import '@splidejs/vue-splide/css/core';
+@import 'carousel';
+@import 'utils';
+
+:root {
+  --color-black: #0A0A0A;
+  --color-white: #fff;
+  --color-primary: #49AD33;
+  --color-primary-darken: #1D8B0A;
+  --color-accent: #5fd07e;
+  --color-secondary: #f6d7c4;
+  --color-error: #EB5757;
+  --color-gray-200: #F5F5F5;
+  --color-gray-300: #e4e4e4;
+  --color-gray-600: #808080;
+  --color-gray-700: #595D62;
+
+  --border-radius-xs: 0.25rem;
+  --border-radius-md: 0.5rem;
+
+  --transition-color: color 0.3s ease-in-out;
+  --transition-bgcolor: background-color 0.3s ease-in-out;
+  --transition-border-color: border-color 0.3s ease-in-out;
+  --transition-opacity: opacity 0.3s ease-in-out;
+  --transition-box-shadow: box-shadow 0.3s ease-in-out;
+  --transition-transform: transform 0.3s ease-in-out;
+  --transition-colors: var(--transition-color), var(--transition-bgcolor), var(--transition-border-color);
+}
