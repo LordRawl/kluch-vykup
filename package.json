@@ -6,7 +6,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/node": "^18",
@@ -24,6 +25,7 @@
     "@splidejs/vue-splide": "^0.6.12",
     "@vueuse/core": "^10.9.0",
     "eslint": "6.8.0",
+    "gh-pages": "^6.1.1",
     "hooper-vue3": "^0.4.5",
     "inputmask.phone": "^1.0.5",
     "nuxt-icons": "^3.2.1",

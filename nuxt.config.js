@@ -14,6 +14,8 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: '/kluch-vykup/',
+    buildAssetsDir: 'assets',
     head: {
       __dangerouslyDisableSanitizers: ['script'],
       htmlAttrs: {
