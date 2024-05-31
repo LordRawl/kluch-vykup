@@ -3,7 +3,7 @@ const isProd = process.env.NODE_ENV === 'production'
 export default defineNuxtConfig({
   target: 'static',
   router: {
-    base: '/kluch-vykup/'
+    base: 'kluch-vykup'
   },
 
   runtimeConfig: {
